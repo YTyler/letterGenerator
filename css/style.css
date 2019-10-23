@@ -1,5 +1,16 @@
+/* * {
+  border: 1px solid red;
+} */
+
 #letter {
     display: none;
+    background-color: #F5F4D8;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px ridge #D6D6BD;
+}
+.rightAddress {
+    text-align: right;
 }
 
 
