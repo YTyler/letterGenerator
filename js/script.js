@@ -6,6 +6,9 @@ $(document).ready(function() {
     var content = $("input#content").val();
     var sender = $("input#sender").val();
 
+    //Add Howler
+    // content = content.toUpperCase();
+
     $(".recipient").text(recipient);
     $(".sender").text(sender);
     $(".content").text(content);
